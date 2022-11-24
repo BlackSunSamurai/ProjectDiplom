@@ -1,0 +1,103 @@
+<h1>Cars list</h1>
+<input type="button" value="Add" class="btn btn-default" (click)="add()" />
+<table *ngIf="tableMode; else create" class="table table-striped">
+  <thead>
+  <tr>
+    <td>Image</td>
+    <td>Name</td>
+    <td>Descriptions</td>
+    <td>Price</td>
+    <td>Car Type</td>
+    <td>Car Brand</td>
+    <td></td>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let p of cars">
+    <ng-template [ngIf]="car.id != p.id" [ngIfElse]="edit">
+      <td>{{p?.pictureUrl}}</td>
+      <td>{{p?.name}}</td>
+      <td>{{p?.description}}</td>
+      <td>{{p?.price}}</td>
+      <td>{{p?.carType}}</td>
+      <td>{{p?.carBrand}}</td>
+      <td>
+        <button class="btn btn-sm btn-primary" (click)="editProduct(p)">Edit</button>
+        <button class="btn btn-sm btn-danger" (click)="delete(p)">Delete</button>
+      </td>
+    </ng-template>
+  </tr>
+  </tbody>
+</table>
+
+<!--шаблон для редактирования-->
+<ng-template #edit>
+  <td>
+    <input type="text" [(ngModel)]="car.name" class="form-control" />
+  </td>
+  <td>
+    <input type="text" [(ngModel)]="car.pictureUrl" class="form-control" />
+  </td>
+  <td>
+    <input type="number" [(ngModel)]="car.description" class="form-control" />
+  </td>
+  <td>
+    <input type="number" [(ngModel)]="car.price" class="form-control" />
+  </td>
+  <td>
+    <input type="number" [(ngModel)]="car.carType" class="form-control" />
+  </td>
+  <td>
+    <input type="number" [(ngModel)]="car.carBrand" class="form-control" />
+  </td>
+  <td>
+    <input type="number" [(ngModel)]="car.millage" class="form-control" />
+  </td>
+  <td>
+    <input type="number" [(ngModel)]="car.year" class="form-control" />
+  </td>
+  <td>
+    <input type="button" value="Сохранить" (click)="save()" class="btn btn-sm btn-success" />
+    <input type="button" value="Отмена" (click)="cancel()" class="btn btn-sm btn-warning" />
+  </td>
+</ng-template>
+
+<!--шаблон для добавления-->
+<ng-template #create>
+  <div class="form-group">
+    <label>Name</label>
+    <input type="text" [(ngModel)]="car.name" class="form-control" />
+  </div>
+  <div class="form-group">
+    <label>Picture</label>
+    <input type="text" [(ngModel)]="car.pictureUrl" class="form-control" />
+  </div>
+  <div class="form-group">
+    <label>Price</label>
+    <input type="number" [(ngModel)]="car.price" class="form-control" />
+  </div>
+  <div class="form-group">
+    <label>Description</label>
+    <input type="number" [(ngModel)]="car.description" class="form-control" />
+  </div>
+  <div class="form-group">
+    <label>Product Type</label>
+    <input type="number" [(ngModel)]="car.carType" class="form-control" />
+  </div>
+  <div class="form-group">
+    <label>Product Brand</label>
+    <input type="number" [(ngModel)]="car.carBrand" class="form-control" />
+  </div>
+  <div class="form-group">
+    <label>Car Type</label>
+    <input type="number" [(ngModel)]="car.millage" class="form-control" />
+  </div>
+  <div class="form-group">
+    <label>Car Brand</label>
+    <input type="number" [(ngModel)]="car.year" class="form-control" />
+  </div>
+  <div>
+    <input type="button" value="Сохранить" (click)="save()" class="btn btn-success" />
+    <input type="button" value="Отмена" (click)="cancel()" class="btn btn-warning" />
+  </div>
+</ng-template>

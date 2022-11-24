@@ -1,0 +1,15 @@
+C:\Users\Дмитрий\RiderProjects\CarsShop\CarsShop.Common\bin\Debug\net6.0\CarsShop.Common.deps.json
+C:\Users\Дмитрий\RiderProjects\CarsShop\CarsShop.Common\bin\Debug\net6.0\CarsShop.Common.dll
+C:\Users\Дмитрий\RiderProjects\CarsShop\CarsShop.Common\bin\Debug\net6.0\CarsShop.Common.pdb
+C:\Users\Дмитрий\RiderProjects\CarsShop\CarsShop.Common\bin\Debug\net6.0\CarsShop.Domain.dll
+C:\Users\Дмитрий\RiderProjects\CarsShop\CarsShop.Common\bin\Debug\net6.0\CarsShop.Domain.pdb
+C:\Users\Дмитрий\RiderProjects\CarsShop\CarsShop.Common\obj\Debug\net6.0\CarsShop.Common.csproj.AssemblyReference.cache
+C:\Users\Дмитрий\RiderProjects\CarsShop\CarsShop.Common\obj\Debug\net6.0\CarsShop.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Дмитрий\RiderProjects\CarsShop\CarsShop.Common\obj\Debug\net6.0\CarsShop.Common.AssemblyInfoInputs.cache
+C:\Users\Дмитрий\RiderProjects\CarsShop\CarsShop.Common\obj\Debug\net6.0\CarsShop.Common.AssemblyInfo.cs
+C:\Users\Дмитрий\RiderProjects\CarsShop\CarsShop.Common\obj\Debug\net6.0\CarsShop.Common.csproj.CoreCompileInputs.cache
+C:\Users\Дмитрий\RiderProjects\CarsShop\CarsShop.Common\obj\Debug\net6.0\CarsShop.Common.csproj.CopyComplete
+C:\Users\Дмитрий\RiderProjects\CarsShop\CarsShop.Common\obj\Debug\net6.0\CarsShop.Common.dll
+C:\Users\Дмитрий\RiderProjects\CarsShop\CarsShop.Common\obj\Debug\net6.0\refint\CarsShop.Common.dll
+C:\Users\Дмитрий\RiderProjects\CarsShop\CarsShop.Common\obj\Debug\net6.0\CarsShop.Common.pdb
+C:\Users\Дмитрий\RiderProjects\CarsShop\CarsShop.Common\obj\Debug\net6.0\ref\CarsShop.Common.dll

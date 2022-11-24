@@ -1,0 +1,16 @@
+<div class="card h-100 shadow-sm">
+    <div class="image position-relative" style="cursor: pointer;">
+        <img routerLink="/shop/{{car.id}}" src="{{car.pictureUrl}}" alt="{{car.name}}" class="img-fluid bg-info">
+        <div class="d-flex align-items-center justify-content-center hover-overlay">
+        </div>
+    </div>
+
+    <div class="card-body d-flex flex-column">
+        <a routerLink="/shop/{{car.id}}">
+            <h6 class="text-uppercase">{{car.name}}</h6>
+          <h6 class="text-uppercase">{{car.year}}</h6>
+        </a>
+        <span class="">{{car.price | currency}}</span>
+        <button (click)="addItemToBasket()" type="button" class="btn btn-dark">Buy</button>
+    </div>
+</div>

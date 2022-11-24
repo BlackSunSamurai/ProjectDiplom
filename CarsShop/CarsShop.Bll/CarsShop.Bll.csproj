@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CarsShop.Common\CarsShop.Common.csproj" />
+      <ProjectReference Include="..\CarsShop.Dal\CarsShop.Dal.csproj" />
+      <ProjectReference Include="..\CarsShop.Domain\CarsShop.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="12.0.0" />
+      <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+      <PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" Version="6.8.0" />
+      <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.8.0" />
+      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.8.0" />
+    </ItemGroup>
+
+</Project>

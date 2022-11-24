@@ -1,0 +1,12 @@
+C:\Users\Дмитрий\RiderProjects\CarsShop\CarsShop.Domain\bin\Debug\net6.0\CarsShop.Domain.deps.json
+C:\Users\Дмитрий\RiderProjects\CarsShop\CarsShop.Domain\bin\Debug\net6.0\CarsShop.Domain.dll
+C:\Users\Дмитрий\RiderProjects\CarsShop\CarsShop.Domain\bin\Debug\net6.0\CarsShop.Domain.pdb
+C:\Users\Дмитрий\RiderProjects\CarsShop\CarsShop.Domain\obj\Debug\net6.0\CarsShop.Domain.csproj.AssemblyReference.cache
+C:\Users\Дмитрий\RiderProjects\CarsShop\CarsShop.Domain\obj\Debug\net6.0\CarsShop.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Дмитрий\RiderProjects\CarsShop\CarsShop.Domain\obj\Debug\net6.0\CarsShop.Domain.AssemblyInfoInputs.cache
+C:\Users\Дмитрий\RiderProjects\CarsShop\CarsShop.Domain\obj\Debug\net6.0\CarsShop.Domain.AssemblyInfo.cs
+C:\Users\Дмитрий\RiderProjects\CarsShop\CarsShop.Domain\obj\Debug\net6.0\CarsShop.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Дмитрий\RiderProjects\CarsShop\CarsShop.Domain\obj\Debug\net6.0\CarsShop.Domain.dll
+C:\Users\Дмитрий\RiderProjects\CarsShop\CarsShop.Domain\obj\Debug\net6.0\refint\CarsShop.Domain.dll
+C:\Users\Дмитрий\RiderProjects\CarsShop\CarsShop.Domain\obj\Debug\net6.0\CarsShop.Domain.pdb
+C:\Users\Дмитрий\RiderProjects\CarsShop\CarsShop.Domain\obj\Debug\net6.0\ref\CarsShop.Domain.dll

@@ -1,0 +1,46 @@
+<h1>Products list</h1>
+<input type="button" value="Add" class="btn btn-default" (click)="add()" />
+<table *ngIf="tableMode; else create" class="table table-striped">
+  <thead>
+  <tr>
+    <td>Id</td>
+    <td>Name</td>
+    <td></td>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let b of brands">
+    <ng-template [ngIf]="brand?.id != b.id" [ngIfElse]="edit">
+      <td>{{b.id}}</td>
+      <td>{{b?.name}}</td>
+      <td>
+        <button class="btn btn-sm btn-primary" (click)="editBrand(b)">Edit</button>
+        <button class="btn btn-sm btn-danger" (click)="delete(b)">Delete</button>
+      </td>
+    </ng-template>
+  </tr>
+  </tbody>
+</table>
+
+<!--шаблон для редактирования-->
+<ng-template #edit>
+  <td>
+    <input type="text" [(ngModel)]="brand.name" class="form-control" />
+  </td>
+  <td>
+    <input type="button" value="Save" (click)="save()" class="btn btn-sm btn-success" />
+    <input type="button" value="Cancel" (click)="cancel()" class="btn btn-sm btn-warning" />
+  </td>
+</ng-template>
+
+<!--шаблон для добавления-->
+<ng-template #create>
+  <div class="form-group">
+    <label>Name</label>
+    <input type="text" [(ngModel)]="brand.name" class="form-control" />
+  </div>
+  <div>
+    <input type="button" value="Save" (click)="save()" class="btn btn-success" />
+    <input type="button" value="Cancel" (click)="cancel()" class="btn btn-warning" />
+  </div>
+</ng-template>
